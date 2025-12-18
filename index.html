@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Murad Ahmmed Simanto — Portfolio</title>
+  <meta name="description" content="Murad Ahmmed Simanto — Personal website, social links, and contact." />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Top header -->
+  <header class="header" id="top">
+    <div class="container header-row">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <div class="brand-text">
+          <span class="brand-name">Murad Simanto</span>
+          <span class="brand-sub">Computer Science • Daffodil Polytechnic</span>
+        </div>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span class="icon" aria-hidden="true">
+          <!-- menu icon -->
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a class="nav-link active" href="#home">
+          <span class="icon" aria-hidden="true">
+            <!-- home -->
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M4 11.5 12 4l8 7.5V20a1.5 1.5 0 0 1-1.5 1.5H5.5A1.5 1.5 0 0 1 4 20v-8.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M9.5 21v-6h5v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+          Home
+        </a>
+
+        <a class="nav-link" href="#about">
+          <span class="icon" aria-hidden="true">
+            <!-- user -->
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M12 12a4.5 4.5 0 1 0-4.5-4.5A4.5 4.5 0 0 0 12 12Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M4.5 20.5c1.6-3.5 5-5.5 7.5-5.5s5.9 2 7.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+          About
+        </a>
+
+        <a class="nav-link" href="#links">
+          <span class="icon" aria-hidden="true">
+            <!-- link -->
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M10.5 13.5 13.5 10.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M8 14a4 4 0 0 1 0-5.66l1.34-1.34a4 4 0 0 1 5.66 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M16 10a4 4 0 0 1 0 5.66l-1.34 1.34a4 4 0 0 1-5.66 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+          Links
+        </a>
+
+        <a class="nav-link" href="#contact">
+          <span class="icon" aria-hidden="true">
+            <!-- mail -->
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-9Z" stroke="currentColor" stroke-width="2"/>
+              <path d="m5.5 7 6.5 5 6.5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          Contact
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+    <!-- HERO -->
+    <section class="section hero" id="home">
+      <div class="container">
+        <div class="hero-card reveal">
+          <div class="hero-top">
+            <div class="avatar" aria-hidden="true">
+              <span>M</span>
+            </div>
+
+            <div class="hero-text">
+              <p class="pill red">Available for projects</p>
+              <h1>Murad Ahmmed Simanto</h1>
+              <p class="subtitle">
+                Computer Science Student • <span class="typing" id="typing"></span>
+              </p>
+
+              <div class="hero-actions">
+                <a class="btn gold" href="https://tinyurl.com/Murad-Ai" target="_blank" rel="noreferrer">
+                  <span class="icon" aria-hidden="true">
+                    <!-- globe -->
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M12 22a10 10 0 1 0-10-10 10 10 0 0 0 10 10Z" stroke="currentColor" stroke-width="2"/>
+                      <path d="M2 12h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      <path d="M12 2c2.8 2.7 4.2 6.2 4.2 10S14.8 19.3 12 22c-2.8-2.7-4.2-6.2-4.2-10S9.2 4.7 12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                  My Website
+                </a>
+
+                <a class="btn outline" href="#contact">
+                  <span class="icon" aria-hidden="true">
+                    <!-- send -->
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M22 2 11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      <path d="M22 2 15 22l-4-9-9-4 20-7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                  Contact Me
+                </a>
+
+                <a class="btn soft" id="downloadCV" href="#" download>
+                  <span class="icon" aria-hidden="true">
+                    <!-- download -->
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M12 3v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      <path d="m8 11 4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M4 20h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  </span>
+                  Download CV
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-info">
+            <div class="info">
+              <span class="info-title">Institute</span>
+              <span class="info-value">Daffodil Polytechnic Institute</span>
+            </div>
+            <div class="info">
+              <span class="info-title">Department</span>
+              <span class="info-value">Computer Science</span>
+            </div>
+            <div class="info">
+              <span class="info-title">Email</span>
+              <a class="info-value" href="mailto:muradahmmedsimanto@gmail.com">muradahmmedsimanto@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>About</h2>
+          <p class="muted">Simple. Clean. Professional.</p>
+        </div>
+
+        <div class="grid reveal">
+          <article class="card">
+            <h3>Who I am</h3>
+            <p class="muted">
+              I’m Murad Ahmmed Simanto — a Computer Science student at Daffodil Polytechnic Institute.
+              I enjoy building modern websites and helpful tools with clean UI.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>What I do</h3>
+            <ul class="list">
+              <li>Personal/portfolio websites</li>
+              <li>Landing pages</li>
+              <li>UI cleanup & redesign</li>
+              <li>Small JavaScript tools</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Style</h3>
+            <div class="pill-row">
+              <span class="pill gold">Golden primary</span>
+              <span class="pill red">Red accent</span>
+              <span class="pill outline">Mobile-first</span>
+            </div>
+            <p class="muted" style="margin-top:10px;">
+              Everything stays centered and scroll-friendly — no side overflow.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LINKS (SOCIALS) -->
+    <section class="section" id="links">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Links</h2>
+          <p class="muted">Tap any icon to open.</p>
+        </div>
+
+        <div class="links-grid reveal">
+          <!-- Facebook -->
+          <a class="link-card" href="https://www.facebook.com/share/1BkmjWtpBV/" target="_blank" rel="noreferrer">
+            <span class="link-ic red" aria-hidden="true">
+              <!-- facebook icon -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M14 8.5V7a2 2 0 0 1 2-2h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M9 12h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M14 21v-9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 22a10 10 0 1 0-10-10 10 10 0 0 0 10 10Z" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </span>
+            <div>
+              <div class="link-title">Facebook</div>
+              <div class="link-sub">facebook.com</div>
+            </div>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+
+          <!-- Instagram -->
+          <a class="link-card" href="https://www.instagram.com/muradahmmedsimanto?igsh=MThka2RraHZwNHA2cQ==" target="_blank" rel="noreferrer">
+            <span class="link-ic gold" aria-hidden="true">
+              <!-- instagram icon -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z" stroke="currentColor" stroke-width="2"/>
+                <path d="M12 16a4 4 0 1 0-4-4 4 4 0 0 0 4 4Z" stroke="currentColor" stroke-width="2"/>
+                <path d="M17.5 6.5h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <div>
+              <div class="link-title">Instagram</div>
+              <div class="link-sub">@muradahmmedsimanto</div>
+            </div>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+
+          <!-- LinkedIn -->
+          <a class="link-card" href="https://www.linkedin.com/in/murad-ahmmed-simanto-9a1884380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
+            <span class="link-ic red" aria-hidden="true">
+              <!-- linkedin icon -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M6.5 10.5V19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M6.5 7.5h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                <path d="M10.5 19v-5.5a3 3 0 0 1 6 0V19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M10.5 10.5V19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4.5 3.5h15a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2h-15a2 2 0 0 1-2-2v-13a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </span>
+            <div>
+              <div class="link-title">LinkedIn</div>
+              <div class="link-sub">linkedin.com</div>
+            </div>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+
+          <!-- Website -->
+          <a class="link-card" href="https://tinyurl.com/Murad-Ai" target="_blank" rel="noreferrer">
+            <span class="link-ic gold" aria-hidden="true">
+              <!-- website/globe -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 22a10 10 0 1 0-10-10 10 10 0 0 0 10 10Z" stroke="currentColor" stroke-width="2"/>
+                <path d="M2 12h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 2c2.8 2.7 4.2 6.2 4.2 10S14.8 19.3 12 22c-2.8-2.7-4.2-6.2-4.2-10S9.2 4.7 12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>
+              <div class="link-title">My Website</div>
+              <div class="link-sub">tinyurl.com/Murad-Ai</div>
+            </div>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Contact</h2>
+          <p class="muted">Email or WhatsApp — whatever is easier.</p>
+        </div>
+
+        <div class="contact-grid reveal">
+          <!-- left -->
+          <div class="card">
+            <h3>Direct Contact</h3>
+
+            <div class="contact-cards">
+              <a class="mini" href="mailto:muradahmmedsimanto@gmail.com">
+                <span class="mini-ic gold" aria-hidden="true">
+                  <!-- mail -->
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-9Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="m5.5 7 6.5 5 6.5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <div>
+                  <div class="mini-title">Email</div>
+                  <div class="mini-value">muradahmmedsimanto@gmail.com</div>
+                </div>
+              </a>
+
+              <a class="mini" href="https://tinyurl.com/Murad-Ai" target="_blank" rel="noreferrer">
+                <span class="mini-ic red" aria-hidden="true">
+                  <!-- external -->
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M14 5h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M10 14 19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M19 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <div>
+                  <div class="mini-title">Website</div>
+                  <div class="mini-value">Open my site</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="qr-wrap">
+              <div class="qr-head">
+                <div class="qr-title">
+                  <span class="pill red">WhatsApp</span>
+                  <strong>Scan QR to chat</strong>
+                </div>
+                <p class="muted">Place your QR image as <code>whatsapp-qr.png</code> in the same folder.</p>
+              </div>
+
+              <div class="qr-box">
+                <img src="whatsapp-qr.png" alt="WhatsApp QR code for Murad Ahmmed Simanto" loading="lazy" />
+              </div>
+            </div>
+          </div>
+
+          <!-- right -->
+          <div class="card">
+            <h3>Send a Message (Demo)</h3>
+            <form id="contactForm" class="form">
+              <div class="field">
+                <label for="name">Your Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+              </div>
+
+              <div class="field">
+                <label for="email">Your Email</label>
+                <input id="email" name="email" type="email" placeholder="your@email.com" required />
+              </div>
+
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+              </div>
+
+              <button class="btn gold" type="submit">
+                <span class="icon" aria-hidden="true">
+                  <!-- send -->
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M22 2 11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M22 2 15 22l-4-9-9-4 20-7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                Send
+              </button>
+
+              <p class="muted" id="formNote" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Mobile bottom bar (icons) -->
+  <nav class="bottom-bar" aria-label="Quick navigation">
+    <a class="bb-link active" href="#home">
+      <span class="bb-ic" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M4 11.5 12 4l8 7.5V20a1.5 1.5 0 0 1-1.5 1.5H5.5A1.5 1.5 0 0 1 4 20v-8.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      Home
+    </a>
+    <a class="bb-link" href="#about">
+      <span class="bb-ic" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M12 12a4.5 4.5 0 1 0-4.5-4.5A4.5 4.5 0 0 0 12 12Z" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </span>
+      About
+    </a>
+    <a class="bb-link" href="#links">
+      <span class="bb-ic" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M10.5 13.5 13.5 10.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M8 14a4 4 0 0 1 0-5.66l1.34-1.34a4 4 0 0 1 5.66 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      Links
+    </a>
+    <a class="bb-link" href="#contact">
+      <span class="bb-ic" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-9Z" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </span>
+      Contact
+    </a>
+  </nav>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-row">
+      <p class="muted">© <span id="year"></span> Murad Ahmmed Simanto</p>
+      <a class="to-top" href="#top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
